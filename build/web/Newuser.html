@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="Newuser.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+  <form action="UserSignup" class="container">
+  <div class="container">
+    <h1>Sign Up</h1>
+    <hr style="width:100px;">
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" name="First_Name" required><br><br>
+
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" name="Last_Name" required><br><br>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" name="email" required><br><br>
+
+    <label for="uid"><b>User id</b></label>
+    <input type="text" name="uid" required><br><br>
+
+    <label for="gender"><b>Gender</b></label><br>
+    
+    <input type="radio" id ="Male" name="gender" value = 'Male'>
+    <label for = "Male">Male</label>
+    
+    <input type="radio" id ="Female" name="gender" value = 'Female'>
+    <label for = "Male">Female</label>
+    
+    <input type="radio" id ="Other" name="gender" value = 'Other'>
+    <label for = "Male">Other</label><br><br>
+
+    <label for="hght"><b>Height (m)</b></label>
+    <input type="text" name="hght" required><br><br>
+
+    <label for="wght"><b>Weight (kg)</b></label>
+    <input type="text" name="wght" required><br><br>
+    <div class="child">
+    <label for="activities"><b>Physical Activities? </b></label><br>
+    <input type="checkbox" id="activities" name="gym" value="gym"> Swimming<br>
+    <input type="checkbox" id="activities" name="swim" value="swim"> Cycling<br>
+    <input type="checkbox" id="activities" name="yoga" value="yoga"> Jogging<br>
+    <input type="checkbox" id="activities" name="dance" value="dance"> Yoga<br>
+    <input type="checkbox" id="activities" name="jog" value="jog"> Gymming<br>
+    <input type="checkbox" id="activities" name="walk" value="walk"> Light Exercise<br>
+    <input type="checkbox" id="activities" name="sport" value="sport"> Zumba/Aerobics
+  </div>
+    <br><br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Generate a password" name="psw" required><br><br>
+
+    <label for="psw-repeat"><b>Confirm</b></label>
+    <input type="password" placeholder="Confirm Password" name="psw-repeat" required><br><br>
+
+      <input type="button" value="Register" onclick="location.href='login.html'"><br><br>
+      <input type="button" value="Cancel" onclick="location.href='login.html'">
+      
+    
+  </div>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+
+  
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+    <form action="UserSignup" method="post">
+
+    
+            Your First Name : <input type="text" name="First_Name" /> <br>
+            Your Last Name : <input type="text" name="Last_Name" /> <br>
+            Your Email ID : <input type="text" name="email" /> <br>
+            Your Gender : <input type="text" name="gender" /> <br>
+            
+            Your User_ID : <input type="text" name="uid" /> <br>
+            Your Height(m) : <input type="text" name="hght" /> <br>
+            Your Weight(kg): <input type="text" name="wght" /> <br>
+            Create your password : <input type="text" name="password" /> <br>
+            Re Enter your password : <input type="text" name="passwor" /> <br>
+    
+
+        <button type="submit">Register</button>
+
+     <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label> <br> 
+
+     <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>  
+
+     
+ 
+  
+   </form>
+    </body> comment 
+</html>-->
+
